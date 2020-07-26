@@ -1,0 +1,10 @@
+{
+  "extends": "@mitsue",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "linebreak-style": [2, "unix"],
+    "indent": [2, 2]
+  }
+}

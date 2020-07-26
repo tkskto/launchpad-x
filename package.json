@@ -1,0 +1,29 @@
+{
+  "name": "@tkskto/launchpad-x",
+  "version": "0.0.1",
+  "description": "this is an interface of launchpad X（from novation） through WebUSB.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "lint": "eslint -c .eslintrc.json src",
+    "test": "jest"
+  },
+  "keywords": [
+    "launchpad",
+    "Web USB"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "tkskto",
+    "url": "https://github.com/tkskto/launchpad"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@mitsue/eslint-config": "^2.0.0",
+    "eslint": "7.5.0",
+    "jest": "^26.1.0",
+    "rollup": "^2.23.0"
+  }
+}
