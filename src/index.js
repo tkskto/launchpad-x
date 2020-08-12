@@ -1,12 +1,12 @@
-let _device;
+let _access;
 
 export async function connect() {
-  _device = await navigator.usb.requestDevice({
+  _access = await navigator.requestMIDIAccess({
     filters: [],
   });
 }
 
 export {
-  _device as device,
+  _access as access,
 };
 
